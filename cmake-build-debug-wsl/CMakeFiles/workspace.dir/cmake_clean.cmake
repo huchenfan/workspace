@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/workspace.dir/main.cpp.o"
-  "CMakeFiles/workspace.dir/main.cpp.o.d"
+  "CMakeFiles/workspace.dir/C++基础语法/hello_world.cpp.o"
+  "CMakeFiles/workspace.dir/C++基础语法/hello_world.cpp.o.d"
+  "CMakeFiles/workspace.dir/C++基础语法/变量.cpp.o"
+  "CMakeFiles/workspace.dir/C++基础语法/变量.cpp.o.d"
   "workspace"
   "workspace.pdb"
 )

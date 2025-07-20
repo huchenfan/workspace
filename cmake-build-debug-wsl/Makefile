@@ -117,41 +117,78 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named workspace
+# Target rules for targets named hello_world
 
 # Build rule for target.
-workspace: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 workspace
-.PHONY : workspace
+hello_world: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_world
+.PHONY : hello_world
 
 # fast build rule for target.
-workspace/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspace.dir/build.make CMakeFiles/workspace.dir/build
-.PHONY : workspace/fast
+hello_world/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/build
+.PHONY : hello_world/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+#=============================================================================
+# Target rules for targets named variable
+
+# Build rule for target.
+variable: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 variable
+.PHONY : variable
+
+# fast build rule for target.
+variable/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/variable.dir/build.make CMakeFiles/variable.dir/build
+.PHONY : variable/fast
+
+C++基础语法/hello_world.o: C++基础语法/hello_world.cpp.o
+.PHONY : C++基础语法/hello_world.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspace.dir/build.make CMakeFiles/workspace.dir/main.cpp.o
-.PHONY : main.cpp.o
+C++基础语法/hello_world.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/C++基础语法/hello_world.cpp.o
+.PHONY : C++基础语法/hello_world.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+C++基础语法/hello_world.i: C++基础语法/hello_world.cpp.i
+.PHONY : C++基础语法/hello_world.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspace.dir/build.make CMakeFiles/workspace.dir/main.cpp.i
-.PHONY : main.cpp.i
+C++基础语法/hello_world.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/C++基础语法/hello_world.cpp.i
+.PHONY : C++基础语法/hello_world.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+C++基础语法/hello_world.s: C++基础语法/hello_world.cpp.s
+.PHONY : C++基础语法/hello_world.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspace.dir/build.make CMakeFiles/workspace.dir/main.cpp.s
-.PHONY : main.cpp.s
+C++基础语法/hello_world.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/C++基础语法/hello_world.cpp.s
+.PHONY : C++基础语法/hello_world.cpp.s
+
+C++基础语法/变量.o: C++基础语法/变量.cpp.o
+.PHONY : C++基础语法/变量.o
+
+# target to build an object file
+C++基础语法/变量.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/variable.dir/build.make CMakeFiles/variable.dir/C++基础语法/变量.cpp.o
+.PHONY : C++基础语法/变量.cpp.o
+
+C++基础语法/变量.i: C++基础语法/变量.cpp.i
+.PHONY : C++基础语法/变量.i
+
+# target to preprocess a source file
+C++基础语法/变量.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/variable.dir/build.make CMakeFiles/variable.dir/C++基础语法/变量.cpp.i
+.PHONY : C++基础语法/变量.cpp.i
+
+C++基础语法/变量.s: C++基础语法/变量.cpp.s
+.PHONY : C++基础语法/变量.s
+
+# target to generate assembly for a file
+C++基础语法/变量.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/variable.dir/build.make CMakeFiles/variable.dir/C++基础语法/变量.cpp.s
+.PHONY : C++基础语法/变量.cpp.s
 
 # Help Target
 help:
@@ -161,10 +198,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... workspace"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... hello_world"
+	@echo "... variable"
+	@echo "... C++基础语法/hello_world.o"
+	@echo "... C++基础语法/hello_world.i"
+	@echo "... C++基础语法/hello_world.s"
+	@echo "... C++基础语法/变量.o"
+	@echo "... C++基础语法/变量.i"
+	@echo "... C++基础语法/变量.s"
 .PHONY : help
 
 
