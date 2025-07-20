@@ -8,8 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/hu_chenfan/workfiles/workspace/C++基础语法/hello_world.cpp" "CMakeFiles/workspace.dir/C++基础语法/hello_world.cpp.o" "gcc" "CMakeFiles/workspace.dir/C++基础语法/hello_world.cpp.o.d"
-  "/home/hu_chenfan/workfiles/workspace/C++基础语法/变量.cpp" "CMakeFiles/workspace.dir/C++基础语法/变量.cpp.o" "gcc" "CMakeFiles/workspace.dir/C++基础语法/变量.cpp.o.d"
+  "/home/hu_chenfan/workfiles/workspace/C++基础语法/变量.cpp" "CMakeFiles/variable.dir/C++基础语法/变量.cpp.o" "gcc" "CMakeFiles/variable.dir/C++基础语法/变量.cpp.o.d"
   )
 
 # Targets to which this target links.

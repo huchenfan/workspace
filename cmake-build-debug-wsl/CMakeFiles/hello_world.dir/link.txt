@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/hello_world.dir/C++基础语法/hello_world.cpp.o -o hello_world 

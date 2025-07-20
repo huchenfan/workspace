@@ -69,31 +69,47 @@ include CMakeFiles/workspace.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/workspace.dir/flags.make
 
-CMakeFiles/workspace.dir/main.cpp.o: CMakeFiles/workspace.dir/flags.make
-CMakeFiles/workspace.dir/main.cpp.o: ../main.cpp
-CMakeFiles/workspace.dir/main.cpp.o: CMakeFiles/workspace.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hu_chenfan/workfiles/workspace/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/workspace.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/workspace.dir/main.cpp.o -MF CMakeFiles/workspace.dir/main.cpp.o.d -o CMakeFiles/workspace.dir/main.cpp.o -c /home/hu_chenfan/workfiles/workspace/main.cpp
+CMakeFiles/workspace.dir/C++基础语法/hello_world.cpp.o: CMakeFiles/workspace.dir/flags.make
+CMakeFiles/workspace.dir/C++基础语法/hello_world.cpp.o: ../C++基础语法/hello_world.cpp
+CMakeFiles/workspace.dir/C++基础语法/hello_world.cpp.o: CMakeFiles/workspace.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hu_chenfan/workfiles/workspace/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/workspace.dir/C++基础语法/hello_world.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/workspace.dir/C++基础语法/hello_world.cpp.o -MF CMakeFiles/workspace.dir/C++基础语法/hello_world.cpp.o.d -o CMakeFiles/workspace.dir/C++基础语法/hello_world.cpp.o -c /home/hu_chenfan/workfiles/workspace/C++基础语法/hello_world.cpp
 
-CMakeFiles/workspace.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workspace.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hu_chenfan/workfiles/workspace/main.cpp > CMakeFiles/workspace.dir/main.cpp.i
+CMakeFiles/workspace.dir/C++基础语法/hello_world.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workspace.dir/C++基础语法/hello_world.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hu_chenfan/workfiles/workspace/C++基础语法/hello_world.cpp > CMakeFiles/workspace.dir/C++基础语法/hello_world.cpp.i
 
-CMakeFiles/workspace.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workspace.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hu_chenfan/workfiles/workspace/main.cpp -o CMakeFiles/workspace.dir/main.cpp.s
+CMakeFiles/workspace.dir/C++基础语法/hello_world.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workspace.dir/C++基础语法/hello_world.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hu_chenfan/workfiles/workspace/C++基础语法/hello_world.cpp -o CMakeFiles/workspace.dir/C++基础语法/hello_world.cpp.s
+
+CMakeFiles/workspace.dir/C++基础语法/变量.cpp.o: CMakeFiles/workspace.dir/flags.make
+CMakeFiles/workspace.dir/C++基础语法/变量.cpp.o: ../C++基础语法/变量.cpp
+CMakeFiles/workspace.dir/C++基础语法/变量.cpp.o: CMakeFiles/workspace.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hu_chenfan/workfiles/workspace/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/workspace.dir/C++基础语法/变量.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/workspace.dir/C++基础语法/变量.cpp.o -MF CMakeFiles/workspace.dir/C++基础语法/变量.cpp.o.d -o CMakeFiles/workspace.dir/C++基础语法/变量.cpp.o -c /home/hu_chenfan/workfiles/workspace/C++基础语法/变量.cpp
+
+CMakeFiles/workspace.dir/C++基础语法/变量.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workspace.dir/C++基础语法/变量.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hu_chenfan/workfiles/workspace/C++基础语法/变量.cpp > CMakeFiles/workspace.dir/C++基础语法/变量.cpp.i
+
+CMakeFiles/workspace.dir/C++基础语法/变量.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workspace.dir/C++基础语法/变量.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hu_chenfan/workfiles/workspace/C++基础语法/变量.cpp -o CMakeFiles/workspace.dir/C++基础语法/变量.cpp.s
 
 # Object files for target workspace
 workspace_OBJECTS = \
-"CMakeFiles/workspace.dir/main.cpp.o"
+"CMakeFiles/workspace.dir/C++基础语法/hello_world.cpp.o" \
+"CMakeFiles/workspace.dir/C++基础语法/变量.cpp.o"
 
 # External object files for target workspace
 workspace_EXTERNAL_OBJECTS =
 
-workspace: CMakeFiles/workspace.dir/main.cpp.o
+workspace: CMakeFiles/workspace.dir/C++基础语法/hello_world.cpp.o
+workspace: CMakeFiles/workspace.dir/C++基础语法/变量.cpp.o
 workspace: CMakeFiles/workspace.dir/build.make
 workspace: CMakeFiles/workspace.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hu_chenfan/workfiles/workspace/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable workspace"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hu_chenfan/workfiles/workspace/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable workspace"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/workspace.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

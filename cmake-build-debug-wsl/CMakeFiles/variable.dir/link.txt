@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/variable.dir/C++基础语法/变量.cpp.o -o variable 

@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "workspace"
+			"path" : "variable"
 		}
 	],
 	"backtrace" : 1,
@@ -24,7 +24,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 6,
+				"line" : 7,
 				"parent" : 0
 			}
 		]
@@ -53,7 +53,7 @@
 			]
 		}
 	],
-	"id" : "workspace::@6890427a1f51a3e7e1df",
+	"id" : "variable::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -69,8 +69,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "workspace",
-	"nameOnDisk" : "workspace",
+	"name" : "variable",
+	"nameOnDisk" : "variable",
 	"paths" : 
 	{
 		"build" : ".",
@@ -91,7 +91,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "main.cpp",
+			"path" : "C++\u57fa\u7840\u8bed\u6cd5/\u53d8\u91cf.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

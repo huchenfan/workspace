@@ -63,7 +63,8 @@ CMAKE_BINARY_DIR = /home/hu_chenfan/workfiles/workspace/cmake-build-debug-wsl
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/workspace.dir/all
+all: CMakeFiles/hello_world.dir/all
+all: CMakeFiles/variable.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +72,61 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/workspace.dir/clean
+clean: CMakeFiles/hello_world.dir/clean
+clean: CMakeFiles/variable.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/workspace.dir
+# Target rules for target CMakeFiles/hello_world.dir
 
 # All Build rule for target.
-CMakeFiles/workspace.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspace.dir/build.make CMakeFiles/workspace.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspace.dir/build.make CMakeFiles/workspace.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hu_chenfan/workfiles/workspace/cmake-build-debug-wsl/CMakeFiles --progress-num=1,2 "Built target workspace"
-.PHONY : CMakeFiles/workspace.dir/all
+CMakeFiles/hello_world.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hu_chenfan/workfiles/workspace/cmake-build-debug-wsl/CMakeFiles --progress-num=1,2 "Built target hello_world"
+.PHONY : CMakeFiles/hello_world.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/workspace.dir/rule: cmake_check_build_system
+CMakeFiles/hello_world.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hu_chenfan/workfiles/workspace/cmake-build-debug-wsl/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/workspace.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_world.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hu_chenfan/workfiles/workspace/cmake-build-debug-wsl/CMakeFiles 0
-.PHONY : CMakeFiles/workspace.dir/rule
+.PHONY : CMakeFiles/hello_world.dir/rule
 
 # Convenience name for target.
-workspace: CMakeFiles/workspace.dir/rule
-.PHONY : workspace
+hello_world: CMakeFiles/hello_world.dir/rule
+.PHONY : hello_world
 
 # clean rule for target.
-CMakeFiles/workspace.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspace.dir/build.make CMakeFiles/workspace.dir/clean
-.PHONY : CMakeFiles/workspace.dir/clean
+CMakeFiles/hello_world.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/clean
+.PHONY : CMakeFiles/hello_world.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/variable.dir
+
+# All Build rule for target.
+CMakeFiles/variable.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/variable.dir/build.make CMakeFiles/variable.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/variable.dir/build.make CMakeFiles/variable.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hu_chenfan/workfiles/workspace/cmake-build-debug-wsl/CMakeFiles --progress-num=3,4 "Built target variable"
+.PHONY : CMakeFiles/variable.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/variable.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hu_chenfan/workfiles/workspace/cmake-build-debug-wsl/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/variable.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hu_chenfan/workfiles/workspace/cmake-build-debug-wsl/CMakeFiles 0
+.PHONY : CMakeFiles/variable.dir/rule
+
+# Convenience name for target.
+variable: CMakeFiles/variable.dir/rule
+.PHONY : variable
+
+# clean rule for target.
+CMakeFiles/variable.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/variable.dir/build.make CMakeFiles/variable.dir/clean
+.PHONY : CMakeFiles/variable.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
