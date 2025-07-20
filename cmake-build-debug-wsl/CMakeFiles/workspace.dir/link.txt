@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/workspace.dir/main.cpp.o -o workspace 
