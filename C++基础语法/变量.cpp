@@ -11,7 +11,7 @@ int main() {
     int number = 10;
     cout << "number = " << number << endl;
 
-    // 这是变量
+    // 这是常量
     const int count = 7;
     cout << "count = " << count << " DAY = " << DAY << endl;
 

@@ -1,4 +1,5 @@
 /home/hu_chenfan/workfiles/workspace/cmake-build-debug-wsl/CMakeFiles/hello_world.dir
 /home/hu_chenfan/workfiles/workspace/cmake-build-debug-wsl/CMakeFiles/variable.dir
+/home/hu_chenfan/workfiles/workspace/cmake-build-debug-wsl/CMakeFiles/array.dir
 /home/hu_chenfan/workfiles/workspace/cmake-build-debug-wsl/CMakeFiles/edit_cache.dir
 /home/hu_chenfan/workfiles/workspace/cmake-build-debug-wsl/CMakeFiles/rebuild_cache.dir

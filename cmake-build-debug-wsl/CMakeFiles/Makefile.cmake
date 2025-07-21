@@ -48,4 +48,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/hello_world.dir/DependInfo.cmake"
   "CMakeFiles/variable.dir/DependInfo.cmake"
+  "CMakeFiles/array.dir/DependInfo.cmake"
   )
