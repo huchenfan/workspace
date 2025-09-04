@@ -3,6 +3,4 @@ project(workspace)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(hello_world C++基础语法/hello_world.cpp)
-add_executable(variable    C++基础语法/变量.cpp)
-add_executable(array    C++基础语法/数组.cpp)
+add_executable(workspace main.cpp)

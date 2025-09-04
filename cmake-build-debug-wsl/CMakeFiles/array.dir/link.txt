@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/array.dir/C++基础语法/数组.cpp.o -o array 

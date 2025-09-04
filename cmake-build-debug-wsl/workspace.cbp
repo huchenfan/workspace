@@ -105,50 +105,6 @@
 					<DistClean command="/usr/bin/gmake -j32 -f &quot;/home/hu_chenfan/workfiles/workspace/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="array">
-				<Option output="/home/hu_chenfan/workfiles/workspace/cmake-build-debug-wsl/array" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hu_chenfan/workfiles/workspace/cmake-build-debug-wsl"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/11"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
-					<Add directory="/usr/include/c++/11/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j32 -f &quot;/home/hu_chenfan/workfiles/workspace/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 array"/>
-					<CompileFile command="/usr/bin/gmake -j32 -f &quot;/home/hu_chenfan/workfiles/workspace/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j32 -f &quot;/home/hu_chenfan/workfiles/workspace/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j32 -f &quot;/home/hu_chenfan/workfiles/workspace/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="array/fast">
-				<Option output="/home/hu_chenfan/workfiles/workspace/cmake-build-debug-wsl/array" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hu_chenfan/workfiles/workspace/cmake-build-debug-wsl"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/11"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
-					<Add directory="/usr/include/c++/11/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j32 -f &quot;/home/hu_chenfan/workfiles/workspace/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 array/fast"/>
-					<CompileFile command="/usr/bin/gmake -j32 -f &quot;/home/hu_chenfan/workfiles/workspace/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j32 -f &quot;/home/hu_chenfan/workfiles/workspace/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j32 -f &quot;/home/hu_chenfan/workfiles/workspace/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/home/hu_chenfan/workfiles/workspace/cmake-build-debug-wsl"/>
 				<Option type="4"/>
@@ -175,9 +131,6 @@
 		</Unit>
 		<Unit filename="/home/hu_chenfan/workfiles/workspace/C++基础语法/变量.cpp">
 			<Option target="variable"/>
-		</Unit>
-		<Unit filename="/home/hu_chenfan/workfiles/workspace/C++基础语法/数组.cpp">
-			<Option target="array"/>
 		</Unit>
 		<Unit filename="/home/hu_chenfan/workfiles/workspace/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

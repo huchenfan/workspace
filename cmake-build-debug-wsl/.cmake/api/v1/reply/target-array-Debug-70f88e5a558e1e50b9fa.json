@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "hello_world"
+			"path" : "array"
 		}
 	],
 	"backtrace" : 1,
@@ -24,7 +24,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 6,
+				"line" : 8,
 				"parent" : 0
 			}
 		]
@@ -53,7 +53,7 @@
 			]
 		}
 	],
-	"id" : "hello_world::@6890427a1f51a3e7e1df",
+	"id" : "array::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -69,8 +69,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "hello_world",
-	"nameOnDisk" : "hello_world",
+	"name" : "array",
+	"nameOnDisk" : "array",
 	"paths" : 
 	{
 		"build" : ".",
@@ -91,7 +91,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "C++\u57fa\u7840\u8bed\u6cd5/hello_world.cpp",
+			"path" : "C++\u57fa\u7840\u8bed\u6cd5/\u6570\u7ec4.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

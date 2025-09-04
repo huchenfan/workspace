@@ -142,19 +142,6 @@ variable/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/variable.dir/build.make CMakeFiles/variable.dir/build
 .PHONY : variable/fast
 
-#=============================================================================
-# Target rules for targets named array
-
-# Build rule for target.
-array: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 array
-.PHONY : array
-
-# fast build rule for target.
-array/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/build
-.PHONY : array/fast
-
 C++基础语法/hello_world.o: C++基础语法/hello_world.cpp.o
 .PHONY : C++基础语法/hello_world.o
 
@@ -203,30 +190,6 @@ C++基础语法/变量.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/variable.dir/build.make CMakeFiles/variable.dir/C++基础语法/变量.cpp.s
 .PHONY : C++基础语法/变量.cpp.s
 
-C++基础语法/数组.o: C++基础语法/数组.cpp.o
-.PHONY : C++基础语法/数组.o
-
-# target to build an object file
-C++基础语法/数组.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/C++基础语法/数组.cpp.o
-.PHONY : C++基础语法/数组.cpp.o
-
-C++基础语法/数组.i: C++基础语法/数组.cpp.i
-.PHONY : C++基础语法/数组.i
-
-# target to preprocess a source file
-C++基础语法/数组.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/C++基础语法/数组.cpp.i
-.PHONY : C++基础语法/数组.cpp.i
-
-C++基础语法/数组.s: C++基础语法/数组.cpp.s
-.PHONY : C++基础语法/数组.s
-
-# target to generate assembly for a file
-C++基础语法/数组.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/C++基础语法/数组.cpp.s
-.PHONY : C++基础语法/数组.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -235,7 +198,6 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... array"
 	@echo "... hello_world"
 	@echo "... variable"
 	@echo "... C++基础语法/hello_world.o"
@@ -244,9 +206,6 @@ help:
 	@echo "... C++基础语法/变量.o"
 	@echo "... C++基础语法/变量.i"
 	@echo "... C++基础语法/变量.s"
-	@echo "... C++基础语法/数组.o"
-	@echo "... C++基础语法/数组.i"
-	@echo "... C++基础语法/数组.s"
 .PHONY : help
 
 
