@@ -1,4 +1,13 @@
 C:\Windows\system32\wsl.exe --distribution Ubuntu-22.04 --exec /bin/bash -c "export CMAKE_COLOR_DIAGNOSTICS=ON && export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd /home/hu_chenfan/workfiles/workspace/cmake-build-debug-wsl && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' -S /home/hu_chenfan/workfiles/workspace -B /home/hu_chenfan/workfiles/workspace/cmake-build-debug-wsl"
 -- Configuring done
--- Generating done
--- Build files have been written to: /home/hu_chenfan/workfiles/workspace/cmake-build-debug-wsl
+CMake Error at CMakeLists.txt:6 (add_executable):
+  Cannot find source file:
+
+    main.cpp
+
+
+CMake Error at CMakeLists.txt:6 (add_executable):
+  No SOURCES given to target: workspace
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
